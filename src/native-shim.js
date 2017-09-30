@@ -58,7 +58,7 @@
  *  Compiling valid class-based custom elements to ES5 will satisfy these
  *  requirements with the latest version of popular transpilers.
  */
-(() => {
+(function() {
   'use strict';
 
   // Do nothing if `customElements` does not exist.
